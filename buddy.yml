@@ -1,4 +1,6 @@
-telegram_token: ""
-openai_api_key: ""
-telegram_usernames: [] # if empty, the bot is available to anyone
-persistence_path: "./data/persistence.pkl" # path where to store user data
+- pipeline: "production"
+  variables:
+  - telegram_token: ""
+    openai_api_key: ""
+    telegram_usernames: [] # if empty, the bot is available to anyone
+    persistence_path: "./data/persistence.pkl" # path where to store user data
