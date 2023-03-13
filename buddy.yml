@@ -4,3 +4,8 @@
     openai_api_key: ""
     telegram_usernames: [] # if empty, the bot is available to anyone
     persistence_path: "./data/persistence.pkl" # path where to store user data
+  on: "EVENT"
+  events:
+  - type: "PUSH"
+    refs:
+    - "*
